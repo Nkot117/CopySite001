@@ -4,14 +4,23 @@
     Base Style
 */
 
+html {
+    font-size: 100%;
+}
+
 body {
     font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     color: #333;
+    font-size: 0.9rem;
 }
 
-li a {
+a {
     text-decoration: none;
     color: #333;
+}
+
+li {
+    list-style: none;
 }
 
 
